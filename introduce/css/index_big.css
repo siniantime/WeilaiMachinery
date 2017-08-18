@@ -1,0 +1,17 @@
+/*通用样式*/
+.width-1200{ width: 1200px; }
+ul{padding-left: 0;}
+
+.introduce p{font-size:16px;}
+
+.advantage .row{ margin-bottom: 0.5rem;}
+.advantage .row ul{ padding-left: 40px;}
+.advantage .row ul li{border-bottom: 1px solid #ddd}
+.advantage .row ul li p{font-size: 14px;}
+
+.anli ul li{box-sizing:border-box; width: 300px; padding: 20px;}
+.anli ul li img{width: 100%; }
+
+.news h3 a{padding-top: 6px; font-size: 18px;}
+
+.foot h2 small{display: inline-block; padding-top: 20px 0;}

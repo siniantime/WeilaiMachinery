@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/globeal.css">
+	<link href="css/index.css" rel="stylesheet" media="screen" type="text/css" />
+	<link rel="stylesheet" media="screen and (max-width:767px)" href="css/index_small.css" type="text/css" />
+	<link rel="stylesheet" media="screen  and (min-width:900px)" href="css/index_big.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/introduce.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.offcanvas.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script>   
+	(function (doc, win) {
+	        var docEl = doc.documentElement,
+	            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	            recalc = function () {
+	                var clientWidth = docEl.clientWidth;
+	                if (!clientWidth) return;
+	                if(clientWidth>=768){
+	                    docEl.style.fontSize = '100px';
+	                }else{
+	                    docEl.style.fontSize = 100 * (clientWidth / 768) + 'px';
+	                }
+	            };
+	        if (!doc.addEventListener) return;
+	        win.addEventListener(resizeEvt, recalc, false);
+	        doc.addEventListener('DOMContentLoaded', recalc, false);
+	    })(document, window);
+	</script>
+</head>
+<body>
+
+	<div class="head hidden-xs ">
+		<p class="center-block width-1200">欢迎来到郑州未来机械设备</p>
+	</div>
+	<div class="logo center-block width-1200 row clearfix">
+		<div class="col-md-4 col-sm-6">
+			<img class="img-responsive center-block" src="images/index/logo.jpg" alt="logo">
+		</div>
+		<div class="col-md-4 col-xs-12 hidden-xs hidden-sm">
+			<h2 class="text-center color-red">质量第一 客户至上</h2>
+			<p class="text-center">国内专业的破碎机、制砂机、磨粉机、<br/>生产线设备制造专家</p>
+		</div>
+		<div class="col-md-4 col-sm-6 hidden-xs tel">
+			<img class="pull-left" src="images/index/iphoto.png">
+			<p class="text-center">全国统一销售热线：<br/><span class="color-red">13938265822</span> </p>
+		</div>
+	</div>
+	<!--导航开始-->
+	<nav id="nav" class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header"><!--导航标题-->
+				<!--给导航栏添加响应式特性，折叠的内容必须包裹在带有 class .collapse、.navbar-collapse 的 <div> 中-->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><!--第一个data告诉js需要对按钮做什么，第二个data指示要切换到哪一个元素-->
+					<span class="sr-only">切换导航</span><!--（仅供）屏幕阅读器-->
+					<span class="icon-bar"></span><!--面包屑-->
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="navbar-collapse collapse"><!--collapse:响应式折叠栏-->
+				<ul class="nav navbar-nav">
+					<li><a href="/">首页</a></li>
+					<li><!--下拉菜单-->
+						<a href="">企业介绍</a>
+					</li>
+					<li class="dropdown"><!--下拉菜单-->
+						<a href="" class="dropdown-toggle" data-toggle="dropdown">产品中心<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#feature-tab" data-tab="tab-chorme">chrome</a></li>
+							<li><a href="#feature-tab" data-tab="tab-firefox">firefox</a></li>
+							<li><a href="#feature-ie" data-tab="ie">ie</a></li>
+						</ul>
+					</li>
+					<li><a href="#" data-toggle="modal" data-target="#about-modal">关于</a></li><!--modal 模状框-->
+				</ul>	
+			</div>
+		</div>
+	</nav>
+	<!--导航结束-->
+	<!--banner-->
+	<div class="center-block banner width-1200"><img src="images/introduce/banner.jpg"></div>	
+	<div class="location center-block width-1200"> <span class="glyphicon glyphicon-home "></span> <a href="">首页</a> > <a href="">企业介绍</a></div>
+
+	<!--企业介绍-->
+	<div class="profile center-block width-1200 center-block">
+		<h1 class="text-center color-red">企业简介<br/><small>company profile</small></h1>
+		<div class="container ">
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-xs-12 text-center">
+					<img src="images/index/33.jpg">
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<p>郑州未来机械制造有限公司始创于2000年，是一家集研发、设计、生产和销售为一体的集团公司，公司总部位于郑州须水工贸园区，地理位置优越。</p>
+					<p class="hidden-xs">自成立以来，公司坚持以"专业的技术核心，精密的加工制造，大胆的创新理念，高质量的服务"已经成为机械行业的新星和未来。</p>
+					<p>公司主要生产颚式破碎机、反击式破碎机、振动筛、球磨机、烘干机、VSI制砂机、振动给料机、成套制砂生产线设备、成套砂石料生产线设备等矿山碎 石磨粉(破磨)生产设备，广泛适用于冶金、建材、桥梁、耐材料、公路等行业。</p>
+					<p class="hidden-xs">公司积极吸收国内外先进的技术，引进国内外先进的管理体系，打造一流的产品，发展一流的团队。现所有产品已通过ISO9001:2000国际认证，远销俄罗斯、南非、德国、土耳其等国家，受到广大用户的一致好评和认可。</p>
+					<p>我们的品牌，换您的信赖; 我们的专业，换您的效益;我们的服务，换您的满意。公司将以诚为本、以信立足、众志成城、飞跃巅峰、与您共赢。</p>
+					<p>郑州未来机械制造有限公司欢迎广大新老客户前来洽谈考察。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--企业文化-->
+	<div class="culture bg-gray ">
+		<div class="wrap center-block width-1200 ">
+			<h1 class="text-center color-white">企业文化<br/><small>corporate culture</small></h1>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-xs-12 ">
+						<h3 class="bg-white1 text-center color-red">企业精神</h3>
+						<p class="bg-white2">精益求精，铸造品质 优质灌溉，缔造未来<img src="images/introduce/aboutus-idea.png"></p>
+					</div>
+					<div class="col-md-4 col-xs-12 ">
+						<h3 class="bg-white1 text-center color-red">服务理念</h3>
+						<p class="bg-white2">我们以专业化、标准化、续写机械行业的巅峰;以虔诚、创新的思想，迈向完美品质。</p>
+					</div>
+					<div class="col-md-4 col-xs-12 ">
+						<h3 class="bg-white1 text-center color-red">质量方针</h3>
+						<p class="bg-white2">以零缺陷的产品打造全新的未来</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--页脚二-->
+	<div class="footer bg-gray color-white2">
+		<div class="container text-center">
+			<div class="row">
+				<div class="logo1 col-md-4 col-sm-7 col-xs-12">
+					<img class="pull-left" src="images/index/logo1.jpg">
+					<h3>郑州未来机械制<br/>造有限公司</h3>
+				</div>
+				<div class=" weixin col-md-4 hidden-xs hidden-sm">
+					<img class="pull-left" src="images/index/erweima.jpg">
+					<h3>官方微信公众号<br/>扫一扫 关注我们</h3>
+				</div>
+				<div class="col-md-4 col-sm-5 col-xs-12 tel">
+					<h3>联系我们</h3>
+					<p>电子商务部：0371-55611857</p>
+					<p>国际贸易部: 0371-86678086</p>
+				</div>
+			</div>
+			<div class="link col-md-12 hidden-xs ">
+				友情链接：<a href="">123</a>
+			</div>
+			<p class="text-center"><span>版权所有Copyright © 2000-2017</span><spam>备案号：豫ICP备10200557号-17</spam><span class="hidden-xs">郑州未来机械制造有限公司</span></p>
+		</div>
+
+	</div>
+
+</body>
+</html>

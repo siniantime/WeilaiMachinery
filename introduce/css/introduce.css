@@ -1,0 +1,13 @@
+.banner img{width: 100%;}
+
+.location{padding: 0.2rem 0; border-bottom: 1px solid #ccc;}
+
+.profile{padding: 0.5rem 0}
+.profile img{width: 100%;}
+.profile p{font-size: 16px; text-indent: 2em;}
+
+.culture p{width: 337px; margin: auto;}
+
+@media screen and (max-width: 768px) {
+	.profile img{display: inline-block; padding-bottom: 0.2rem;}
+}
