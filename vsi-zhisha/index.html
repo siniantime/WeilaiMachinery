@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/globeal.css">
+	<link rel="stylesheet" type="text/css" href="css/vsi.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.offcanvas.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script>   
+	(function (doc, win) {
+	        var docEl = doc.documentElement,
+	            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	            recalc = function () {
+	                var clientWidth = docEl.clientWidth;
+	                if (!clientWidth) return;
+	                if(clientWidth>=768){
+	                    docEl.style.fontSize = '100px';
+	                }else{
+	                    docEl.style.fontSize = 100 * (clientWidth / 768) + 'px';
+	                }
+	            };
+	        if (!doc.addEventListener) return;
+	        win.addEventListener(resizeEvt, recalc, false);
+	        doc.addEventListener('DOMContentLoaded', recalc, false);
+	    })(document, window);
+	</script>
+</head>
+<body>
+
+	<div class="head hidden-xs ">
+		<p class="container center-block">欢迎来到郑州未来机械设备</p>
+	</div>
+	<div class="container">
+		<div class="logo center-block  row clearfix">
+			<div class="col-md-4 col-sm-6">
+				<img class="img-responsive center-block" src="images/globeal/logo.jpg" alt="logo">
+			</div>
+			<div class="col-md-4 col-xs-12 hidden-xs hidden-sm">
+				<h2 class="text-center color-red">质量第一 客户至上</h2>
+				<p class="text-center">国内专业的破碎机、制砂机、磨粉机、<br/>生产线设备制造专家</p>
+			</div>
+			<div class="col-md-4 col-sm-6 hidden-xs tel">
+				<img class="pull-left" src="images/globeal/iphoto.png">
+				<p class="text-center">全国统一销售热线：<br/><span class="color-red">13938265822</span> </p>
+			</div>
+		</div>
+	</div>
+	<!--导航开始-->
+	<nav id="nav" class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header"><!--导航标题-->
+				<!--给导航栏添加响应式特性，折叠的内容必须包裹在带有 class .collapse、.navbar-collapse 的 <div> 中-->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><!--第一个data告诉js需要对按钮做什么，第二个data指示要切换到哪一个元素-->
+					<span class="sr-only">切换导航</span><!--（仅供）屏幕阅读器-->
+					<span class="icon-bar"></span><!--面包屑-->
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="navbar-collapse collapse"><!--collapse:响应式折叠栏-->
+				<ul class="nav navbar-nav">
+					<li><a href="/">首页</a></li>
+					<li><!--下拉菜单-->
+						<a href="">企业介绍</a>
+					</li>
+					<li class="dropdown"><!--下拉菜单-->
+						<a href="" class="dropdown-toggle" data-toggle="dropdown">产品中心<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#feature-tab" data-tab="tab-chorme">chrome</a></li>
+							<li><a href="#feature-tab" data-tab="tab-firefox">firefox</a></li>
+							<li><a href="#feature-ie" data-tab="ie">ie</a></li>
+						</ul>
+					</li>
+					<li><a href="#" data-toggle="modal" data-target="#about-modal">关于</a></li><!--modal 模状框-->
+				</ul>	
+			</div>
+		</div>
+	</nav>
+	<!--导航结束-->
+	<!--banner-->
+	<div class="location">
+		<div class="center-block container">
+			 <span class="glyphicon glyphicon-home "></span> <a href="">首页</a> > <a href="">产品中心</a> > <a href="">VSI制砂机</a>
+		</div>
+	</div>
+	<!--破碎设备-->
+	<div class="content">
+		<div class="container center-block text-center">
+			<div class="row box-1 bg-white2">
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<h1>VSI制砂机</h1>
+					<p>PCL制砂机的基础上改良而成<br/>新型第三代制砂机<br/>性能更优越  结构更合理<br/>国内砂石骨料加工、石料整形机的不二之选</p>
+					<a href="">点击咨询</a>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<img src="images/vsi/1.jpg">
+				</div>
+			</div>
+			<div class="row box-2 bg-white2">
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="bg-white2">
+						<h1>适用物料</h1>
+						<p>主要用于河卵石、<br/>山石（石灰石、花岗岩、玄武岩、辉绿岩、安山岩等）、<br/>矿石尾矿、石屑的人工制砂。</p>
+						<a href="">点击咨询</a>
+						<img src="images/vsi/2.jpg">
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="bg-white2">
+						<h1>应用领域</h1>
+						<p>矿山、冶金、建材、<br/>公路、水利、<br/>化学等众多部门</p>
+						<a href="">点击咨询</a>
+						<img src="images/vsi/2.jpg">
+					</div>
+				</div>
+			</div>
+			<div class="row box-3">
+				<div class=" col-xs-12 bg-white2">
+					<h1>技术参数</h1>
+					<table id="pro" >
+					   	<tbody class="center-block">
+						    <tr  class="bg-red color-white tbhead">
+							    <td rowspan="2">型号</td>
+							    <td colspan="2">处理能力(t/h)</td>
+							    <td colspan="2">进料尺寸(mm)</td>
+							    <td rowspan="2">转速(r/min)</td>
+							    <td rowspan="2">功率(kw)</td>
+							    <td rowspan="2">外形尺寸(mm)</td>
+						     	<td rowspan="2">重量(t)</td>
+						    </tr>
+						    <tr  class="bg-red color-white tbhead">
+							     <td>瀑落与中心进料</td>
+							     <td>全中心进料</td>
+							     <td>软料</td>
+							     <td>硬料</td>
+						    </tr>
+						    <tr>
+							     <td>VSI7611</td>
+							     <td>120-190</td>
+							     <td>65-95</td>
+							     <td>35</td>
+							     <td>30</td>
+							     <td>1700-1900</td>
+							     <td>55&times;2</td>
+							     <td>3700&times;2150&times;2100</td>
+							     <td>11.8</td>
+						    </tr>
+						    <tr id="tbd1">
+							     <td>VSI8518</td>
+							     <td>200-260</td>
+							     <td>100-130</td>
+							     <td>40</td>
+							     <td>35</td>
+							     <td>1520-1700</td>
+							     <td>90&times;2</td>
+							     <td>4140&times;2280&times;2425</td>
+							     <td>14.5</td>
+						    </tr>
+						    <tr>
+							     <td>VSI9526</td>
+							     <td>300-380</td>
+							     <td>150-190</td>
+							     <td>45</td>
+							     <td>40</td>
+							     <td>1360-1500</td>
+							     <td>132&times;2</td>
+							     <td>4560&times;2447&times;2778</td>
+							     <td>17.8</td>
+						    </tr>
+						    <tr id="tbd1">
+							     <td>VSI1140</td>
+							     <td>450-520</td>
+							     <td>225-260</td>
+							     <td>50</td>
+							     <td>45</td>
+							     <td>1180-1310</td>
+							     <td>200&times;2</td>
+							     <td>5000&times;2700&times;3300</td>
+							     <td>25.6</td>
+						    </tr>
+					   </tbody>
+					</table>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!--页脚二-->
+	<div class="footer bg-gray color-white2">
+		<div class="container text-center">
+			<div class="row">
+				<div class="logo1 col-md-4 col-sm-7 col-xs-12">
+					<img class="pull-left hidden-xs" src="images/globeal/logo1.jpg">
+					<h3>郑州未来机械<span>制造有限公司</span></h3>
+				</div>
+				<div class=" weixin col-md-4 hidden-xs hidden-sm">
+					<img class="pull-left" src="images/globeal/erweima.jpg">
+					<h3>官方微信公众号<br/>扫一扫 关注我们</h3>
+				</div>
+				<div class="col-md-4 col-sm-5 col-xs-12 tel">
+					<h3>联系我们</h3>
+					<p>电子商务部：0371-55611857</p>
+					<p>国际贸易部: 0371-86678086</p>
+				</div>
+			</div>
+			<div class="link col-md-12 hidden-xs ">
+				友情链接：<a href="">123</a>
+			</div>
+			<p class="text-center"><span>版权所有Copyright © 2000-2017</span><spam>备案号：豫ICP备10200557号-17</spam><span class="hidden-xs">郑州未来机械制造有限公司</span></p>
+		</div>
+
+	</div>
+
+</body>
+</html>

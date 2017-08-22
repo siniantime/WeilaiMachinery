@@ -1,0 +1,23 @@
+body{font-size: 16px;}
+
+.content{padding: 0.2rem; background-color: #EDEDED;}
+.location{padding: 0.2rem 0; background-color: #EDEDED;}
+.content>div{margin-bottom: 0.2rem;}
+.content h4{margin: 0 -15px; padding: 0.2rem; border: 1px solid #ccc; border-bottom: none;  background: #FAFAFA; border-radius: 0.1rem 0.1rem 0 0;}
+.content h5{font-size: 16px; line-height: 0.4rem;}
+.content h5 small{line-height: 18px;}
+.content .row{border-top: 1px solid #ccc; border-left: 1px solid #ccc;  background-color: #fff;}
+.content .row>div{padding: 0.2rem ; border-right:1px solid #ccc; border-bottom:1px solid #ccc;  }
+.content .row a{display: inline-block; padding: 0.05rem 0.2rem; border: 1px solid #ccc; border-radius: 0.05rem; color: #EE4F54;}
+.content .row a:hover{color: #fff; background-color: #EE4F54; border-color: #EE4F54; }
+
+.content img{width: 100%; }
+
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (min-width: 900px) {
+	
+}

@@ -1,0 +1,41 @@
+body{font-size: 16px;}
+
+.location{padding: 0.2rem 0; background-color: #EDEDED;}
+.content{ background-color: #EDEDED;}
+.content img{width: 100%;}
+.content .row{margin-bottom: 0.2rem; }
+.content .row a{display: inline-block; padding: 0.05rem 0.2rem; border: 1px solid #ccc; border-radius: 0.05rem; color: #EE4F54; border-color: #EE4F54}
+.content .row a:hover{color: #fff; background-color: #EE4F54;}
+.content .box-3>div{padding-bottom: 0.5rem; overflow-x:auto }
+#pro {margin: auto; }
+#pro td{padding:5px; border:1px solid #ccc;}
+#pro tbody tr:first-child td:first-child{border-left: 1px solid #EE4F54}
+#pro tbody tr:first-child td:last-child{border-right: 1px solid #EE4F54}
+#pro tbody tr:first-child td{border-top: 1px solid #EE4F54}
+#pro .tbhead td{border: #fff solid 1px;}
+
+
+
+@media screen and (max-width: 768px) {
+	.content h1{padding-top: 0.2rem; font-size: 24px;}
+	.content p{line-height: 18px;}
+	.box-2 p{height: 72px;}
+}
+
+
+@media screen and (max-width: 640px) {
+	.content .row{margin-bottom: 0}
+	.content .row > div{padding: 0.2rem 0;}
+	.content p{line-height: 26px;}
+	.a{float: right;}
+	.box-2 p{height: auto;}
+
+}
+
+
+@media screen and (min-width: 900px) {
+	.content .row h1{padding-top: 60px;}
+	.content .row a{margin-top: 20px;}
+	.content p{line-height: 32px;}
+	#pro td{padding:10px}
+}

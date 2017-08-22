@@ -19,6 +19,9 @@ body{font-size: 16px;}
 .service h3{font-weight: bold;}
 .service p{line-height: 30px;}
 
+.honor{padding: 0.5rem 0}
+.honor img{width: 100%;}
+
 @media screen and (max-width: 768px) {
 	.profile img{display: inline-block; padding-bottom: 0.2rem;}
 	.service img{padding-bottom: 0.3rem;}

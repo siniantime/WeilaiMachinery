@@ -1,0 +1,56 @@
+/*通用样式*/
+body{ font-family: 'Microsoft Yahei'; color: #3E3E3E；}
+a{text-decoration: none;}
+
+.bg-white1{background-color: #eee}
+.bg-white2{background-color: #fff}
+
+li{list-style: none;}
+h1{margin: 0 0 0.2rem;}
+h1 small{display: inline-block; padding-top: 0.1rem;}
+h3{margin: 0;padding: 0;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+.btn{ border-color:#fff; color: #fff;}
+.btn:hover{border-color: #fff; color: #fff;}
+
+.swt a{display: inline-block;  margin:0 0.2rem; padding:0.1rem  0.3rem;}
+
+.color-red{color: #EE4F54}
+.color-white{color: #fff}
+.color-white2{color: #eee}
+.bg-red{background-color: #EE4F54}
+.bg-gray{background-color: #353535}
+
+.head{ background-color: #F7F7F7}
+.head p{ height: 33px; padding-left: 10px; line-height: 33px;}
+
+.logo{height: 140px; padding-top: 15px;}
+.logo{font-size: 16px;}
+.logo div:first-child img{padding-top: 10px;}
+.logo .tel p{padding-top: 20px;}
+.logo span{font-size: 26px; }
+
+#nav{margin-bottom: 0px; border: none;}
+#nav .nav>li>a{color: #eee}
+#nav .nav li:hover{background-color: #EE4F54}
+#nav .nav .dropdown-menu>li:hover{background-color: #EE4F54}
+#nav .nav .dropdown-menu li a:hover{background-color: #EE4F54; color: #eee}
+
+.footer{padding: 0.5rem 0 0.1rem}
+.footer h3{line-height: 0.4rem;}
+.footer h3 span{display: block;}
+.footer .logo1 img{width: 1.8rem;}
+.footer .weixin img{margin-left: 0.1rem;}
+.footer .link{text-align: left;}
+.footer .link a{color: #eee}
+
+@media screen and (max-width: 640px) {
+	h1{font-size: 0.5rem;}
+	h3{font-size: 18px;}
+
+	.logo{height: 2.2rem;}
+
+	.footer h3 span{display: inline-block;}
+	.footer h3 {padding-bottom: 0.3rem;}
+}
