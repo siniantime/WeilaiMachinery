@@ -1,0 +1,92 @@
+body{font-size: 16px; }
+ul{padding-left: 0;}
+.box-white{ padding: 0.2rem; border: 2px solid #fff; border-radius: 0.1rem;}
+.box-gray{ padding: 0.2rem; border: 2px solid #DBDBDB; border-radius: 0.1rem;}
+
+.location .container{padding: 0.2rem 0;  }
+.swt{display: inline-block; padding: 0.07rem 0.3rem; border: 1px solid #ccc; border-radius: 0.05rem; color: #EE4F54; border-color: #EE4F54}
+.swt:hover{color: #fff; background-color: #EE4F54;}
+
+.img>img{width: 100%;}
+
+
+.banner{background: url(../images/vsi/u8834.png);}
+.fn{
+	animation: fn 2s;
+}
+@keyframes fn{
+	from{height: }
+}
+
+
+.wuliao {overflow: hidden; }
+.wuliao .box-gray{height: 3.8rem; }
+.wuliao .img img{width: 100%;}
+
+.box-3 .row>div{overflow-x:auto;}
+#pro {margin: auto; }
+#pro td{padding:5px; border:1px solid #ccc;}
+#pro tbody tr:first-child td:first-child{border-left: 1px solid #EE4F54}
+#pro tbody tr:first-child td:last-child{border-right: 1px solid #EE4F54}
+#pro tbody tr:first-child td{border-top: 1px solid #EE4F54}
+#pro .tbhead td{border: #fff solid 1px;}
+.pic .row>a{display: block; margin: 0.15rem 0;}
+
+.wuliao h1{margin:0.4rem 0;}
+.wuliao p{margin: 0.4rem 0 0.4rem 0.2rem; text-align: left; font-size: 0.2rem;}
+
+.yingyong .box-white{height: 4.2rem;}
+.yingyong ul{width: 3.3rem; margin-bottom: 0.2rem;}
+.yingyong ul li{float: left; width: 0.7rem; height: 0.7rem; margin: 0.1rem 0.2rem; border: 1px solid #999; border-radius:50%; font-size: 0.2rem; text-align: center; line-height: 0.7rem;}
+
+
+@media screen and (max-width: 768px) {
+	.com-box{padding: 0.3rem ;}
+	.com-box h1{margin: 0; font-size: 0.24rem;}
+	.com-box p{font-size: 14px;}
+
+	.banner .row{margin: 0.3rem 0 }
+	.banner h1{font-size: 0.24rem;}
+	.banner p{font-size: 14px;}
+	
+	.wuliao .box-gray {height: 2.2rem;}
+	.wuliao p{margin:0.2rem 0;}
+	
+	.yingyong .box-white{height: 3.2rem;}
+	.yingyong ul {width: 2.4rem; margin-top: 0.3rem;}
+	.yingyong ul li{width: 0.6rem; height: 0.6rem; margin: 0.1rem; line-height: 0.6rem; font-size: 14px;}
+
+	.canshu h1, .pic h1, .anli h1 {margin-bottom: 0.3rem;}
+}
+
+
+@media screen and (max-width: 640px) {
+	.com-box h1{font-size: 18px;}
+	.banner .box-white{margin-bottom: 0.3rem;}
+	.banner h1{margin-top: 10px; font-size: 18px;}
+
+	.wuliao{padding-bottom: 0.3rem;}
+	.wuliao .box-gray{height: 3.8rem; margin-bottom: 0.3rem;}
+
+	.yingyong .box-white{height: 4.6rem; margin-bottom: 0.3rem;}
+	.yingyong ul {width: 3.6rem;}
+	.yingyong ul li{width: 1rem; height: 1rem; line-height: 1rem;}
+}
+
+
+@media screen and (min-width: 900px) {
+	.banner{height: 720px;}
+	.banner .box-white{height: 3.7rem;}
+	.banner .row{padding-top: 150px;}
+	.banner .row h1{margin: 40px 0 20px;}
+	.banner p{font-size: 0.2rem;}
+	.banner .row .swt{margin-top: 40px;}
+
+	.yingyong .row h1{margin: 0.4rem 0 0.3rem; }
+	.yingyong img{height: 4.2rem;}
+
+	.com-box{padding: 1rem 0;}
+	#pro td{padding:10px}
+	.anli{padding: 1rem 0}
+	.anli h1{margin-bottom: 0.5rem}
+}

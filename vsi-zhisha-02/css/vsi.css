@@ -16,7 +16,6 @@ body{font-size: 16px;}
 
 
 
-
 @media screen and (max-width: 768px) {
 	.content h1{padding-top: 0.2rem; font-size: 24px;}
 	.content p{line-height: 18px;}
@@ -39,5 +38,4 @@ body{font-size: 16px;}
 	.content .row a{margin-top: 20px;}
 	.content p{line-height: 32px;}
 	#pro td{padding:10px}
-
 }
